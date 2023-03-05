@@ -1,25 +1,42 @@
+
+.header{
+    
+    display: flex;
+    justify-content:space-between;
+}
+
 .logo{
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 20vb;
+    height: 5vh;
+    padding-left: 3%;
 
 }
 
+.user{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.signin{
+    color: blue;
+}
+
 h1{
-    display: inline-block;
+    
     margin-left: 100px;
     color: rgb(49, 48, 48);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-left: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(49, 48, 48);
-    font-weight: 800;
+.botongoogle{
+    display: flex;
 }
+
+.logogoogle__img{
+    width: 10%;
+}
+
+
 
 .botones{
     margin-left: 150px;
